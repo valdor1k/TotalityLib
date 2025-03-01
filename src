@@ -199,6 +199,18 @@ function NEVERLOSE:Theme(name)
 		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(28, 28, 28)
 		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(13, 13, 13)
 	end
+
+	if name == "fatality" then
+		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(10, 10, 10)  -- Deep black background with slight gradient (dark gray)
+		NEVERLOSE.Themes.BlackColor = Color3.fromRGB(25, 25, 25)        -- Slightly lighter dark gray for sections
+		NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(15, 15, 15)        -- Darker, almost black for the header
+		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(60, 60, 60)         -- Subtle gray traces
+		NEVERLOSE.Themes.MainColor = Color3.fromRGB(255, 0, 0)           -- Neon red for the main highlight (vivid, aggressive)
+		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(5, 5, 10)        -- Dark red for drop areas, adding depth
+		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(15, 15, 20)       -- Darker background for sections
+		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(0, 255, 255)       -- Cyan glow for borders, adding a sharp contrast
+		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(35, 35, 35) -- Slightly brighter dark background for buttons
+	end
 end
 
 function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
