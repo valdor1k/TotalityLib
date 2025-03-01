@@ -137,18 +137,18 @@ function NEVERLOSE:Theme(name)
 		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(20, 20, 20)
 	end
 
- if name == "green" then
-    NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(1, 17, 33)  -- Dark green background
-NEVERLOSE.Themes.BlackColor = Color3.fromRGB(9, 9, 19)         -- Deep green for black sections
-NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(7, 7, 17)        -- Dark green header
-NEVERLOSE.Themes.TraceColor = Color3.fromRGB(80, 80, 80)        -- Neutral gray for traces
-NEVERLOSE.Themes.MainColor = Color3.fromRGB(19, 243, 176)      -- Bright green as the main highlight
-NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(3, 6, 25)      -- Darker shade of green for drop areas
-NEVERLOSE.Themes.SectionColor = Color3.fromRGB(0, 17, 35)      -- Greenish-blue section color
-NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(40, 40, 40)      -- Dark gray for strokes
-NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(20, 20, 20) -- Black button background
-
- end
+	 if name == "green" then
+		    NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(1, 17, 33)  -- Dark green background
+			NEVERLOSE.Themes.BlackColor = Color3.fromRGB(9, 9, 19)         -- Deep green for black sections
+			NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(7, 7, 17)        -- Dark green header
+			NEVERLOSE.Themes.TraceColor = Color3.fromRGB(80, 80, 80)        -- Neutral gray for traces
+			NEVERLOSE.Themes.MainColor = Color3.fromRGB(19, 243, 176)      -- Bright green as the main highlight
+			NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(3, 6, 25)      -- Darker shade of green for drop areas
+			NEVERLOSE.Themes.SectionColor = Color3.fromRGB(0, 17, 35)      -- Greenish-blue section color
+			NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(40, 40, 40)      -- Dark gray for strokes
+			NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(20, 20, 20) -- Black button background
+	
+	 end
 
 	if name == "orange" then
 		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(29, 29, 29)  -- Dark background with slight warmth
@@ -173,6 +173,19 @@ NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(20, 20, 20) -- Black bu
 		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(26, 26, 26)
 		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(50, 50, 50)
 		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(26, 26, 26)
+	end
+
+	if name == "red" then
+		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(5, 5, 10)  -- Dark crimson background (barely noticeable red)
+		NEVERLOSE.Themes.BlackColor = Color3.fromRGB(18, 5, 12)        -- Deep maroon for black sections
+		NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(12, 4, 9)        -- Very dark red header for depth
+		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(90, 40, 40)        -- Muted crimson for subtle tracing
+		NEVERLOSE.Themes.MainColor = Color3.fromRGB(230, 45, 45)        -- Vivid red with a touch of orange for the main highlight
+		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(7, 4, 15)       -- Darker red drop area, nearly invisible but maintains the feel
+		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(2, 6, 16)        -- Rich dark red for section background
+		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(60, 30, 30)       -- Muted maroon stroke color
+		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(25, 10, 25) -- Subtle dark burgundy for button background
+	
 	end
 
 	if name == "dark" then
