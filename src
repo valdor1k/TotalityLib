@@ -196,7 +196,6 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 
 	local ScreenGui = Instance.new("ScreenGui")
 	local Frame = Instance.new("CanvasGroup")
-	local UICorner = Instance.new("UICorner")
 	local Frame_2 = Instance.new("Frame")
 	local UICorner_2 = Instance.new("UICorner")
 	local Frame_3 = Instance.new("Frame")
