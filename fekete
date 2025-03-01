@@ -223,7 +223,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	local Frame = Instance.new("CanvasGroup")
 	local Frame_2 = Instance.new("Frame")
 	local UICorner_2 = Instance.new("UICorner")
-	local Frame_3 = Instance.new("Frame")
+	local  = Instance.new("Frame")
 	local UICorner_3 = Instance.new("UICorner")
 	local DropShadow = Instance.new("ImageLabel")
 	local HeadName = Instance.new("TextLabel")
@@ -1934,7 +1934,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	end
 
 	local dragToggle = nil
-	local dragSpeed = 1
+	local dragSpeed = 0
 	local dragStart = nil
 	local startPos = nil
 
