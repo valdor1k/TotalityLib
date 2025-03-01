@@ -208,7 +208,7 @@ function NEVERLOSE:Theme(name)
 		NEVERLOSE.Themes.MainColor = Color3.fromRGB(255, 0, 0)           -- Neon red for the main highlight (vivid, aggressive)
 		NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(5, 5, 10)        -- Dark red for drop areas, adding depth
 		NEVERLOSE.Themes.SectionColor = Color3.fromRGB(15, 15, 20)       -- Darker background for sections
-		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(0, 255, 255)       -- Cyan glow for borders, adding a sharp contrast
+		NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(40, 40, 40)      -- Cyan glow for borders, adding a sharp contrast
 		NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(35, 35, 35) -- Slightly brighter dark background for buttons
 	end
 end
