@@ -386,8 +386,6 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 
 	TweenService:Create(Frame,TweenInfo.new(1,Enum.EasingStyle.Quint),{Size=ooldsize}):Play()
 
-	UICorner.Parent = Frame
-
 	Frame_2.Parent = Frame
 	Frame_2.BackgroundColor3 = NEVERLOSE.Themes.BlackColor
 	Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
