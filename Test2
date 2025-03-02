@@ -245,23 +245,6 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	local headd2text
 	local oldPositionClose
 
-    local uiElement = Frame
-
-    local function updateSize()
-        local parentSize = Frame.Parent.AbsoluteSize
-
-        local scaledX = parentSize.X * Frame.Size.X.Scale + Frame.Size.X.Offset
-        local scaledY = parentSize.Y * Frame.Size.Y.Scale + uiElement.Size.Y.Offset
-
-        local clampedX = math.min(scaledX, 303)
-        local clampedY = math.min(scaledY, 578)
-
-        uiElement.Size = UDim2.new(0, clampedX, 0, clampedY)
-    end
-
-    uiElement.Parent:GetPropertyChangedSignal("AbsoluteSize"):Connect(updateSize)
-    updateSize()
-
 	task.spawn(function()
 		if Text then
 			local TextLabel = Instance.new("TextLabel")
