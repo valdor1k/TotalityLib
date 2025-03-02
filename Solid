@@ -745,7 +745,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 
 				Tab.Visible=true
                 Tab.Position=UDim2.new(0.5, 0, 0.5, 0)
-                Tab.Size=Size = UDim2.new(0.99000001, 0, 0.99000001, 0)
+                Tab.Size = UDim2.new(0.99000001, 0, 0.99000001, 0)
                 TabButton.BackgroundTransparency=0.6
 			else
 				Tab.Visible=false
