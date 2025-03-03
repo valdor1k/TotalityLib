@@ -1434,7 +1434,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 				Slider.BorderSizePixel = 0
 				Slider.Position = UDim2.new(0.0500000231, 0, 0.601014614, 0)
 				Slider.Size = UDim2.new(0.899999976, 0, -0.351014495, 0)
-				Slider.ZIndex = 5
+				Slider.ZIndex = 4
 
 				UIAspectRatioConstraint.Parent = Slider
 				UIAspectRatioConstraint.AspectRatio = 7.000
