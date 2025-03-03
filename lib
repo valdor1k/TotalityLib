@@ -320,28 +320,37 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	end
 
 	task.spawn(function()
-        --[[
-		ImageButton.MouseButton1Click:Connect(function()
+        local closeButton = Instance.new("TextButton")
+        local closeButtonUISTROKE = Instance.new("UIStroke")
+
+        closeButton.Name = "closeButton"
+        closeButton.Parent = Frame
+        closeButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        closeButton.BackgroundTransparency = 1.000
+        closeButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+        closeButton.BorderSizePixel = 0
+        closeButton.Position = UDim2.new(0.870896697, 0, 0.0349502191, 0)
+        closeButton.Size = UDim2.new(0.0864197537, 0, 0.0671641827, 0)
+        closeButton.ZIndex = 10
+        closeButton.Font = Enum.Font.SourceSans
+        closeButton.Text = "-"
+        closeButton.TextColor3 = Color3.fromRGB(60, 60, 60)
+        closeButton.TextScaled = true
+        closeButton.TextSize = 14.000
+        closeButton.TextWrapped = true
+		closeButton.MouseButton1Click:Connect(function()
 			toggle_valu=not toggle_valu
 
 			if toggle_valu then
 				oldPositionClose = Frame.Position
-				TweenService:Create(ImageButton,TweenInfo.new(0.5),{
-					Size=UDim2.new(0.0900000036, 0, 0.0900000036, 0),
-					Position=UDim2.new(0.908723712, 0, 0.0239103697, 0),
-					AnchorPoint=Vector2.new(0,0)
-				}):Play()
-			else
-				TweenService:Create(ImageButton,TweenInfo.new(0.5),{
-					Size=UDim2.new(0.3, 0,0.3, 0),
-					Position=UDim2.new(1,0,-0.009,0),
-					AnchorPoint=Vector2.new(1,0)
-				}):Play()
 			end
 
 			ui_toggleong(toggle_valu)
 		end)
-        ]]
+
+        closeButtonUISTROKE.Color = Color3.fromRGB(60, 60, 60)
+        closeButtonUISTROKE.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+        closeButtonUISTROKE.Parent = closeButton
 	end)
 
 	task.spawn(function()
