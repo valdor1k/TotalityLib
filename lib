@@ -256,7 +256,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 			TextLabel.BorderSizePixel = 0
 			TextLabel.Position = UDim2.new(0.243000001, 0, 0.0250000004, 0)
 			TextLabel.Size = UDim2.new(0.666889787, 0, 0.0627818182, 0)
-			TextLabel.ZIndex = 5
+			TextLabel.ZIndex = 20
 			TextLabel.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 			TextLabel.Text = Text or" "
 			TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -331,7 +331,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
         closeButton.BorderSizePixel = 0
         closeButton.Position = UDim2.new(0.870896697, 0, 0.0349502191, 0)
         closeButton.Size = UDim2.new(0.0864197537, 0, 0.0671641827, 0)
-        closeButton.ZIndex = 10
+        closeButton.ZIndex = 20
         closeButton.Font = Enum.Font.SourceSans
         closeButton.Text = "-"
         closeButton.TextColor3 = Color3.fromRGB(60, 60, 60)
@@ -391,7 +391,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	ScreenGui.Parent = CoreGui
 	ScreenGui.ResetOnSpawn = false
 	ScreenGui.IgnoreGuiInset = true
-	ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global
+	ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	ProtectGui(ScreenGui)
 
 	Frame.Parent = ScreenGui
@@ -426,7 +426,7 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	Frame_3.BorderSizePixel = 0
 	Frame_3.Position = UDim2.new(0.223214373, 0, 0, 0)
 	Frame_3.Size = UDim2.new(0.774999976, 0, 0.140000001, 0)
-	Frame_3.ZIndex = 4
+	Frame_3.ZIndex = 10
 
 	UICorner_3.CornerRadius = UDim.new(0, 0)
 	UICorner_3.Parent = Frame_3
