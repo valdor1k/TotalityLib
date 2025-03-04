@@ -201,7 +201,7 @@ function NEVERLOSE:Theme(name)
 	end
 
 	if name == "fatality" then
-		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(20, 20, 20)  -- Deep black background with slight gradient (dark gray)
+		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(10, 10, 10)  -- Deep black background with slight gradient (dark gray)
 		NEVERLOSE.Themes.BlackColor = Color3.fromRGB(25, 25, 25)        -- Slightly lighter dark gray for sections
 		NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(15, 15, 15)        -- Darker, almost black for the header
 		NEVERLOSE.Themes.TraceColor = Color3.fromRGB(60, 60, 60)         -- Subtle gray traces
