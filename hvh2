@@ -407,6 +407,10 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 	Frame.ZIndex = 2
 	Frame.ClipsDescendants=true
 
+    local uicstrint = Instance.new("UIAspectRatioConstraint")
+    uicstrint.AspectRatio = 1.15
+    uicstrint.Parent = Frame
+
     FrameUIStroke.Parent = Frame
     FrameUIStroke.Color = Color3.fromRGB(65, 65, 65)
     FrameUIStroke.Thickness = 3
