@@ -255,8 +255,8 @@ function NEVERLOSE:AddWindow(NameScriptHub,Text,UICustomSize)
 			TextLabel.BackgroundTransparency = 1.000
 			TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 			TextLabel.BorderSizePixel = 0
-			TextLabel.Position = UDim2.new(0.243000001, 0, 0.0250000004, 0)
-			TextLabel.Size = UDim2.new(0.666889787, 0, 0.0627818182, 0)
+			TextLabel.Position = UDim2.new(0.243, 0,0.025, 0)
+			TextLabel.Size = UDim2.new(0.523, 0,0.063, 0)
 			TextLabel.ZIndex = 20
 			TextLabel.FontFace = Font.fromId(12187365364, Enum.FontWeight.SemiBold, Enum.FontStyle.Normal)
 			TextLabel.Text = Text or" "
