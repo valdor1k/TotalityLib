@@ -174,6 +174,18 @@ function NEVERLOSE:Theme(name)
 	    NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(25, 30, 45) -- Buttons in dark cool blue
 	end
 
+	if name == "red_rage" then
+	    NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(20, 5, 5)         -- Dark crimson background
+	    NEVERLOSE.Themes.BlackColor = Color3.fromRGB(30, 10, 10)             -- Deeper blood-red panels
+	    NEVERLOSE.Themes.HeaderColor = Color3.fromRGB(45, 10, 10)            -- Deep header with red tint
+	    NEVERLOSE.Themes.TraceColor = Color3.fromRGB(100, 80, 80)            -- Muted reddish-gray trace
+	    NEVERLOSE.Themes.MainColor = Color3.fromRGB(255, 40, 40)             -- Bright red for highlights
+	    NEVERLOSE.Themes.MainColorDrop = Color3.fromRGB(40, 10, 10)          -- Dark red dropdowns
+	    NEVERLOSE.Themes.SectionColor = Color3.fromRGB(35, 5, 5)             -- Sections in bloody maroon
+	    NEVERLOSE.Themes.StrokeColor = Color3.fromRGB(80, 30, 30)            -- Reddish-brown stroke for aggression
+	    NEVERLOSE.Themes.ButtonBlackgroundColor = Color3.fromRGB(25, 0, 0)   -- Very dark red-black for buttons
+	end
+
 
 	if name == "orange" then
 		NEVERLOSE.Themes.BlackgroundColor = Color3.fromRGB(29, 29, 29)  -- Dark background with slight warmth
